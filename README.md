@@ -3,7 +3,8 @@
 Project Goals:
 The goals of this project include the finding the most efficient sorting algoirthm as well as finding the perfect hybrid algorithm for sorting at peak efficiency. These goals were achieved by documenting the performance of the base merge sort and insertion sort function as well as a hybrid sort containing both insertion and merge sort. The purpose of the hybrid function is to take advantage of merge sort's speed when dealing with large data sets as well as insertion sort's speed when dealing with smaller data sets. This was done using a threshold which can be edited to insertion/merge sort when a specific number of elements is left in an array. 
 
-#***Testing***
+***Testing***
+
  Code was tested using varying data sizes, including 1,000, 10,000, and 100,000
  The generated array contains random numbers between 1 and 10,000 with a random order every time it is generated
 - Array with a size of 1000 elements
