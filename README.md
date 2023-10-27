@@ -6,12 +6,12 @@ The goals of this project include the finding the most efficient sorting algoirt
 Testing:
  Code was tested using varying data sizes, including 1,000, 10,000, and 100,000
  The generated array contains random numbers between 1 and 10,000 with a random order every time it is generated
-Array with a size of 1000 elements
-  -Test 1
-  -Insertion Sort
-    Memory usage for Insertion Sort: 15527936 -> 15532032 bytes
-    Additional memory needed for insertion sort:  4096
-    Time taken for Insertion Sort: 0.10892677307128906 seconds
+- Array with a size of 1000 elements
+-   Test 1
+  - Insertion Sort
+-     Memory usage for Insertion Sort: 15527936 -> 15532032 bytes
+-     Additional memory needed for insertion sort:  4096
+-     Time taken for Insertion Sort: 0.10892677307128906 seconds
   -Merge Sort
     Memory usage for Merge Sort: 15540224 -> 15552512 bytes
     Additional memory needed for merge sort:  12288
