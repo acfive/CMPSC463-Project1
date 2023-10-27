@@ -24,22 +24,22 @@ The goals of this project include finding the most efficient sorting algorithm a
 -     Time taken for Hybrid Sort: 0.007513761520385742 seconds
   
 -   Test 2
--   Insertion Sort
+-   **Insertion Sort**
 -     Memory usage for Insertion Sort: 15495168 -> 15499264 bytes
 -     Additional memory needed for insertion sort:  4096
 -     Time taken for Insertion Sort: 0.09323501586914062 seconds
--   Merge Sort
+-   **Merge Sort**
 -     Memory usage for Merge Sort: 15507456 -> 15515648 bytes
 -     Additional memory needed for merge sort:  8192
 -     Time taken for Merge Sort: 0.007512331008911133 seconds
--   Hybrid Sort
+-   **Hybrid Sort**
 -     Memory usage for Hybrid Sort: 15519744 -> 15523840 bytes
 -     Additional memory needed for hybrid sort:  4096
 -     Time taken for Hybrid Sort: 0.007784843444824219 seconds
 
 -   **Test 3**
 -   **Insertion Sort**
--      Memory usage for Insertion Sort: 15560704 -> 15564800 bytes
+-   Memory usage for Insertion Sort: 15560704 -> 15564800 bytes
 -     Additional memory needed for insertion sort:  4096
 -     Time taken for Insertion Sort: 0.09526753425598145 seconds
 -   **Merge Sort**
