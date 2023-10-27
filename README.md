@@ -8,8 +8,8 @@ Testing:
  The generated array contains random numbers between 1 and 10,000 with a random order every time it is generated
 - Array with a size of 1000 elements
 -   Test 1
-  - Insertion Sort
--     Memory usage for Insertion Sort: 15527936 -> 15532032 bytes
+   - Insertion Sort
+ -     Memory usage for Insertion Sort: 15527936 -> 15532032 bytes
 -     Additional memory needed for insertion sort:  4096
 -     Time taken for Insertion Sort: 0.10892677307128906 seconds
 -   Merge Sort
