@@ -148,16 +148,16 @@ When analyzing arrays with 25,000 elements, the performance of the sorting algor
 
 - ***Theoretical Analysis For Each Algorithm***
  - **Insertion Sort:**
-  -  **Theoretical Analysis:** Insertion Sort is a simple and intuitive sorting algorithm that works well for small datasets. It has a time complexity of O(n^2) in the worst and average cases, making it less efficient for large arrays.
-   -  **Performance Explanation:** Insertion Sort's performance depends on the number of inversions in the dataset. It is efficient when the dataset is almost sorted because it makes fewer comparisons and shifts. However, as the dataset size increases, the number of comparisons and shifts grows quadratically, leading to longer execution times.
+    - **Theoretical Analysis:** Insertion Sort is a simple sorting algorithm that works well for small datasets. It has a time complexity of O(n^2) in the worst and average cases, making it less efficient for large arrays.
+    - **Performance Explanation:** Insertion Sort's performance depends on the number of inversions in the dataset. It is efficient when the dataset is almost sorted because it makes fewer comparisons and shifts. However, as the dataset size increases, the number of comparisons and shifts grows quadratically, leading to longer execution times.
   
  - **Merge Sort:**
-    - **Theoretical Analysis:** Merge Sort is a divide-and-conquer algorithm that divides the dataset into smaller segments, sorts them, and then merges them back together. It has a consistent time complexity of O(n log n) in all cases.
-   - **Performance Explanation:** Merge Sort excels in terms of time complexity and is highly efficient for large datasets. It consistently divides the dataset into two halves, recursively sorts them, and then merges them. The key to its performance is the division and merging process, which ensures a balanced workload, and this makes it suitable for larger datasets
+    - **Theoretical Analysis:** Merge Sort is a divide-and-conquer algorithm that divides the dataset into smaller segments, sorts them, and then merges them back together. It has a consistent time complexity of O(n log n) in ALL cases.
+   - **Performance Explanation:** Merge Sort works best in terms of time complexity and is highly efficient for large datasets. It consistently divides the dataset into two halves, recursively sorts them, and then merges them. The key to its performance is the division and merging process, which ensures a balanced workload, and this makes it suitable for larger datasets but suffers when dealing with small data sets.
  
  - **Hybrid Sort:**
-   - **Theoretical Analysis:** Hybrid Sort combines Insertion Sort and Merge Sort, aiming to harness the advantages of both. It uses Insertion Sort for smaller segments of data and Merge Sort for larger segments, switching between the two based on a defined threshold.
-   - **Performance Explanation:** The Hybrid Sort's threshold value determines the size at which it switches from Insertion Sort to Merge Sort. For smaller datasets, Insertion Sort is more efficient due to its lower overhead. As the dataset size increases, Merge Sort's O(n log n) complexity becomes more favorable, and the switch occurs. The Hybrid Sort aims to minimize the quadratic time complexity of Insertion Sort for large datasets. The actual performance of Hybrid Sort depends on the specific threshold chosen and the characteristics of the input data.
+   - **Theoretical Analysis:** Hybrid Sort combines Insertion Sort and Merge Sort, having the advantages of both. It uses Insertion Sort for smaller segments of data and Merge Sort for larger segments, switching between the two based on the defined threshold of 10.
+   - **Performance Explanation:** The Hybrid Sort's threshold value determines the size at which it switches from Insertion Sort to Merge Sort. For smaller datasets, Insertion Sort is more efficient due to its efficiency with smaller data sets. As the dataset size increases, Merge Sort's O(n log n) complexity becomes more favorable, and the switch occurs. The Hybrid Sort aims to minimize the quadratic time complexity of Insertion Sort for large datasets. The performance of Hybrid Sort depends on the specific threshold chosen but suffers in performance when a larger threshold is chosen.
 
 
 - ***Conclusion***
