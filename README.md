@@ -6,7 +6,7 @@ The goals of this project include the finding the most efficient sorting algoirt
 Testing:
  Code was tested using varying data sizes, including 1,000, 10,000, and 100,000
  The generated array contains random numbers between 1 and 10,000 with a random order every time it is generated
-- Array with a size of 1000 elements
+Array with a size of 1000 elements
   -Test 1
   -Insertion Sort
     Memory usage for Insertion Sort: 15527936 -> 15532032 bytes
@@ -52,7 +52,7 @@ Testing:
 Discussing performance: 
 These tests on arrays with a size 1000 provided insights into their memory usage and execution times. For Insertion Sort, we observed a consistent pattern of requiring an additional 4096 bytes of memory. However, it was notably slower than both Merge Sort and Hybrid Sort, with execution times ranging from 0.0932 to 0.1089 seconds. Merge Sort consistently used an additional 8192 to 12288 bytes of memory. It outperformed Insertion Sort in terms of execution time, with times as low as 0.0070 to 0.0078 seconds. Hybrid Sort had an intermediate memory usage pattern, requiring 4096 to 12288 bytes of additional memory. Its execution times were on par with Merge Sort, ranging from 0.0070 to 0.0078 seconds. These results underline the trade-offs between memory efficiency and execution speed, highlighting Merge Sort and Hybrid Sort as suitable choices for larger datasets, while Insertion Sort's efficiency is more evident with smaller datasets.
 
--Array with size of 10,000 elements
+Array with size of 10,000 elements
   -Test 1
   -Insertion Sort
     Memory usage for Insertion Sort: 16056320 -> 16060416 bytes
