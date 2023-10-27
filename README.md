@@ -148,8 +148,8 @@ When analyzing arrays with 25,000 elements, the performance of the sorting algor
 
 - ***Theoretical Analysis For Each Algorithm***
  - **Insertion Sort:**
-  - **Theoretical Analysis:** Insertion Sort is a simple and intuitive sorting algorithm that works well for small datasets. It has a time complexity of O(n^2) in the worst and average cases, making it less efficient for large arrays.
-   - **Performance Explanation:** Insertion Sort's performance depends on the number of inversions in the dataset. It is efficient when the dataset is almost sorted because it makes fewer comparisons and shifts. However, as the dataset size increases, the number of comparisons and shifts grows quadratically, leading to longer execution times.
+  -  **Theoretical Analysis:** Insertion Sort is a simple and intuitive sorting algorithm that works well for small datasets. It has a time complexity of O(n^2) in the worst and average cases, making it less efficient for large arrays.
+   -  **Performance Explanation:** Insertion Sort's performance depends on the number of inversions in the dataset. It is efficient when the dataset is almost sorted because it makes fewer comparisons and shifts. However, as the dataset size increases, the number of comparisons and shifts grows quadratically, leading to longer execution times.
   
  - **Merge Sort:**
     - **Theoretical Analysis:** Merge Sort is a divide-and-conquer algorithm that divides the dataset into smaller segments, sorts them, and then merges them back together. It has a consistent time complexity of O(n log n) in all cases.
