@@ -10,15 +10,15 @@ The goals of this project include finding the most efficient sorting algorithm a
  
 ***Array with a size of 1000 elements***
 -   Test 1
-   - Insertion Sort
+   - **Insertion Sort**
  -     Memory usage for Insertion Sort: 15527936 -> 15532032 bytes
 -     Additional memory needed for insertion sort:  4096
 -     Time taken for Insertion Sort: 0.10892677307128906 seconds
--   Merge Sort
+-   **Merge Sort**
 -     Memory usage for Merge Sort: 15540224 -> 15552512 bytes
 -     Additional memory needed for merge sort:  12288
 -     Time taken for Merge Sort: 0.007531166076660156 seconds
--   Hybrid Sort
+-   **Hybrid Sort**
 -     Memory usage for Hybrid Sort: 15552512 -> 15560704 bytes
 -     Additional memory needed for hybrid sort:  8192
 -     Time taken for Hybrid Sort: 0.007513761520385742 seconds
@@ -94,6 +94,6 @@ These tests on arrays with a size 1000 provided insights into their memory usage
 -     Additional memory needed for merge sort:  159744
 -     Time taken for Merge Sort: 0.03658771514892578 seconds
 -   **Hybrid Sort**
-    Memory usage for Hybrid Sort: 16084992 -> 16166912 bytes
+-     Memory usage for Hybrid Sort: 16084992 -> 16166912 bytes
 -     Additional memory needed for hybrid sort:  81920
 -     Time taken for Hybrid Sort: 0.03599858283996582 seconds
