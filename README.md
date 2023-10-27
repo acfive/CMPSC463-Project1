@@ -9,7 +9,7 @@ The goals of this project include finding the most efficient sorting algorithm a
  The generated array contains random numbers between 1 and 10,000 with a random order every time it is generated
  
 ***Array with a size of 1000 elements***
--   Test 1
+-   *Test 1*
    - **Insertion Sort**
  -     Memory usage for Insertion Sort: 15527936 -> 15532032 bytes
 -     Additional memory needed for insertion sort:  4096
@@ -23,7 +23,7 @@ The goals of this project include finding the most efficient sorting algorithm a
 -     Additional memory needed for hybrid sort:  8192
 -     Time taken for Hybrid Sort: 0.007513761520385742 seconds
   
--   Test 2
+-   *Test 2*
 -   **Insertion Sort**
 -     Memory usage for Insertion Sort: 15495168 -> 15499264 bytes
 -     Additional memory needed for insertion sort:  4096
@@ -37,7 +37,7 @@ The goals of this project include finding the most efficient sorting algorithm a
 -     Additional memory needed for hybrid sort:  4096
 -     Time taken for Hybrid Sort: 0.007784843444824219 seconds
 
--   **Test 3**
+-   *Test 3*
 -   **Insertion Sort**
 -   Memory usage for Insertion Sort: 15560704 -> 15564800 bytes
 -     Additional memory needed for insertion sort:  4096
@@ -56,7 +56,7 @@ These tests on arrays with a size 1000 provided insights into their memory usage
 
 
 ***Array with size of 10,000 elements***
--   Test 1
+-   *Test 1*
 -   **Insertion Sort**
 -     Memory usage for Insertion Sort: 16056320 -> 16060416 bytes
 -     Additional memory needed for insertion sort:  4096
@@ -70,7 +70,7 @@ These tests on arrays with a size 1000 provided insights into their memory usage
 -     Additional memory needed for hybrid sort:  61440
 -     Time taken for Hybrid Sort: 0.03568220138549805 seconds
     
-- Test 2
+- *Test 2*
 -   **Insertion Sort**
 -     Memory usage for Insertion Sort: 16101376 -> 16105472 bytes
 -     Additional memory needed for insertion sort:  4096
@@ -84,7 +84,7 @@ These tests on arrays with a size 1000 provided insights into their memory usage
 -     Additional memory needed for hybrid sort:  65536
 -     Time taken for Hybrid Sort: 0.036128997802734375 seconds
 
--   Test 3
+-   *Test 3*
 -   **Insertion sort**
 -     Memory usage for Insertion Sort: 15843328 -> 15847424 bytes
 -     Additional memory needed for insertion sort:  4096
