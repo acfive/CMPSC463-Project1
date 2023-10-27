@@ -12,10 +12,10 @@ Testing:
 -     Memory usage for Insertion Sort: 15527936 -> 15532032 bytes
 -     Additional memory needed for insertion sort:  4096
 -     Time taken for Insertion Sort: 0.10892677307128906 seconds
-  -Merge Sort
-    Memory usage for Merge Sort: 15540224 -> 15552512 bytes
-    Additional memory needed for merge sort:  12288
-    Time taken for Merge Sort: 0.007531166076660156 seconds
+-   Merge Sort
+-     Memory usage for Merge Sort: 15540224 -> 15552512 bytes
+-     Additional memory needed for merge sort:  12288
+-     Time taken for Merge Sort: 0.007531166076660156 seconds
   -Hybrid Sort
     Memory usage for Hybrid Sort: 15552512 -> 15560704 bytes
     Additional memory needed for hybrid sort:  8192
