@@ -5,8 +5,8 @@ The goals of this project include finding the most efficient sorting algorithm a
 
 ***Testing***
 
- Code was tested using varying data sizes, including 1,000, 10,000, and 25,000. NOTE: Anything greater than 25,000 elements would not work on my laptop.
- The generated array contains random numbers between 1 and 10,000 with a random order every time it is generated
+ Code was tested using varying data sizes, including 1,000, 10,000, and 25,000. NOTE: Anything significantly greater than 25,000 elements would not work on my laptop.
+The generated array contains random numbers between 1 and 10,000 with a random order every time it is generated
  
 ***Array with a size of 1000 elements***
 -   *Test 1*
@@ -114,6 +114,7 @@ With an input size of 10,000, Insertion Sort needed a consistent additional memo
   - Memory usage for Hybrid Sort: 17371136 -> 17469440 bytes
   - Additional memory needed for hybrid sort:  98304
   - Time taken for Hybrid Sort: 0.07050275802612305 seconds
+   
 - *Test 2*
 - **Insertion Sort**
   - Memory usage for Insertion Sort: 16924672 -> 16973824 bytes
@@ -127,3 +128,18 @@ With an input size of 10,000, Insertion Sort needed a consistent additional memo
   - Memory usage for Hybrid Sort: 17330176 -> 17432576 bytes
   - Additional memory needed for hybrid sort:  102400
   - Time taken for Hybrid Sort: 0.1635575294494629 seconds
+   
+ - *Test 3*
+ - **Insertion Sort**
+  - Memory usage for Insertion Sort: 16957440 -> 17006592 bytes
+  - Additional memory needed for insertion sort:  49152
+  - Time taken for Insertion Sort: 43.77454209327698 seconds
+- **Merge Sort**
+  - Memory usage for Merge Sort: 17207296 -> 17285120 bytes
+  - Additional memory needed for merge sort:  77824
+  - Time taken for Merge Sort: 0.1606743335723877 seconds
+- **Hybrid Sort**
+  - Memory usage for Hybrid Sort: 17379328 -> 17481728 bytes
+  - Additional memory needed for hybrid sort:  102400
+  - Time taken for Hybrid Sort: 0.1717231273651123 seconds
+
