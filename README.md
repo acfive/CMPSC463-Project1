@@ -5,7 +5,7 @@ The goals of this project include finding the most efficient sorting algorithm a
 
 ***Testing***
 
- Code was tested using varying data sizes, including 1,000, 10,000, and 100,000
+ Code was tested using varying data sizes, including 1,000, 10,000, and 25,000. NOTE: Anything greater than 25,000 elements would not work on my laptop.
  The generated array contains random numbers between 1 and 10,000 with a random order every time it is generated
  
 ***Array with a size of 1000 elements***
@@ -100,4 +100,30 @@ These tests on arrays with a size 1000 provided insights into their memory usage
 -   **Discussing Performance:**
 With an input size of 10,000, Insertion Sort needed a consistent additional memory usage of 4096 bytes, but it came at the cost of relatively slow execution times, ranging from 4.7374 to 5.5572 seconds. In contrast, Merge Sort consistently required more memory, ranging from 57344 to 65536 bytes of additional memory, but offered significantly faster execution times, ranging from 0.0361 to 0.0498 seconds. Hybrid Sort demonstrated an intermediate memory usage pattern, necessitating 4096 to 81920 bytes of additional memory. Its execution times were on par with Merge Sort, ranging from 0.0360 to 0.0366 seconds. These results highlight the trade-offs between memory efficiency and execution speed. Merge Sort and Hybrid Sort showed to much, much faster than insertion sort on larger sets of data. On the other hand, insertion sort proved faster with smaller amounts of data. This is shown in the hybrid sort with the average times being slightly lower than merge sort since insertion sort wraps up the small amount of data faster.
 
-***Array size of 100,000***
+***Array size of 25,000***
+- *Test 1*
+- **Insertion Sort**
+  - Memory usage for Insertion Sort: 16941056 -> 16945152 bytes
+  - Additional memory needed for insertion sort:  4096
+  - Time taken for Insertion Sort: 29.90860915184021 seconds
+- **Merge Sort**
+  - Memory usage for Merge Sort: 17141760 -> 17272832 bytes
+  - Additional memory needed for merge sort:  131072
+  - Time taken for Merge Sort: 0.0765082836151123 seconds
+- **Hybrid Sort**
+  - Memory usage for Hybrid Sort: 17371136 -> 17469440 bytes
+  - Additional memory needed for hybrid sort:  98304
+  - Time taken for Hybrid Sort: 0.07050275802612305 seconds
+- *Test 2*
+- **Insertion Sort**
+  - Memory usage for Insertion Sort: 16924672 -> 16973824 bytes
+  - Additional memory needed for insertion sort:  49152
+  - Time taken for Insertion Sort: 36.94051265716553 seconds
+- **Merge Sort**
+  - Memory usage for Merge Sort: 17174528 -> 17235968 bytes
+  - Additional memory needed for merge sort:  61440
+  - Time taken for Merge Sort: 0.24836492538452148 seconds
+- **Hybrid Sort**
+  - Memory usage for Hybrid Sort: 17330176 -> 17432576 bytes
+  - Additional memory needed for hybrid sort:  102400
+  - Time taken for Hybrid Sort: 0.1635575294494629 seconds
