@@ -1,7 +1,7 @@
 # CMPSC463-Project1
 
 Project Goals:
-The goals of this project include the finding the most efficient sorting algoirthm as well as finding the perfect hybrid algorithm for sorting at peak efficiency. These goals were achieved by documenting the performance of the base merge sort and insertion sort function as well as a hybrid sort containing both insertion and merge sort. The purpose of the hybrid function is to take advantage of merge sort's speed when dealing with large data sets as well as insertion sort's speed when dealing with smaller data sets. This was done using a threshold which can be edited to insertion/merge sort when a specific number of elements is left in an array. 
+The goals of this project include finding the most efficient sorting algorithm as well as finding the perfect hybrid algorithm for sorting at peak efficiency. These goals were achieved by documenting the performance of the base merge sort and insertion sort function as well as a hybrid sort containing both insertion and merge sort. The purpose of the hybrid function is to take advantage of the merge sort's speed when dealing with large data sets as well as the insertion sort's speed when dealing with smaller data sets. This was done using a threshold which can be edited to insertion/merge sort when a specific number of elements is left in an array. 
 
 ***Testing***
 
@@ -36,16 +36,16 @@ The goals of this project include the finding the most efficient sorting algoirt
 -     Additional memory needed for hybrid sort:  4096
 -     Time taken for Hybrid Sort: 0.007784843444824219 seconds
 
--   Test 3
--   Insertion Sort
+-   **Test 3**
+-   **Insertion Sort**
 -      Memory usage for Insertion Sort: 15560704 -> 15564800 bytes
 -     Additional memory needed for insertion sort:  4096
 -     Time taken for Insertion Sort: 0.09526753425598145 seconds
--   Merge Sort
+-   **Merge Sort**
 -     Memory usage for Merge Sort: 15572992 -> 15581184 bytes
 -     Additional memory needed for merge sort:  8192
 -     Time taken for Merge Sort: 0.007374286651611328 seconds
--   Hybrid Sort
+-   **Hybrid Sort**
 -     Memory usage for Hybrid Sort: 15581184 -> 15593472 bytes
 -     Additional memory needed for hybrid sort:  12288
 -     Time taken for Hybrid Sort: 0.007013797760009766 seconds
@@ -55,19 +55,19 @@ These tests on arrays with a size 1000 provided insights into their memory usage
 
 
 ***Array with size of 10,000 elements***
-  -Test 1
-  -Insertion Sort
-    Memory usage for Insertion Sort: 16056320 -> 16060416 bytes
-    Additional memory needed for insertion sort:  4096
-    Time taken for Insertion Sort: 5.347431182861328 seconds
-  -Merge Sort
-    Memory usage for Merge Sort: 16138240 -> 16203776 bytes
-    Additional memory needed for merge sort:  65536
-    Time taken for Merge Sort: 0.03681325912475586 seconds
-  -Hybrid Sort
-    Memory usage for Hybrid Sort: 16224256 -> 16285696 bytes
-    Additional memory needed for hybrid sort:  61440
-    Time taken for Hybrid Sort: 0.03568220138549805 seconds
+-   Test 1
+-   **Insertion Sort**
+-     Memory usage for Insertion Sort: 16056320 -> 16060416 bytes
+-     Additional memory needed for insertion sort:  4096
+-     Time taken for Insertion Sort: 5.347431182861328 seconds
+- **Merge Sort**
+-     Memory usage for Merge Sort: 16138240 -> 16203776 bytes
+-     Additional memory needed for merge sort:  65536
+-     Time taken for Merge Sort: 0.03681325912475586 seconds
+-   **Hybrid Sort**
+-     Memory usage for Hybrid Sort: 16224256 -> 16285696 bytes
+-     Additional memory needed for hybrid sort:  61440
+-     Time taken for Hybrid Sort: 0.03568220138549805 seconds
     
   -Test 2
   -Insertion Sort
