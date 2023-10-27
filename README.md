@@ -51,7 +51,7 @@ The goals of this project include finding the most efficient sorting algorithm a
 -     Additional memory needed for hybrid sort:  12288
 -     Time taken for Hybrid Sort: 0.007013797760009766 seconds
 
-- Discussing performance: 
+- **Discussing performance:**
 These tests on arrays with a size 1000 provided insights into their memory usage and execution times. For Insertion Sort, we observed a consistent pattern of requiring an additional 4096 bytes of memory. However, it was notably slower than both Merge Sort and Hybrid Sort, with execution times ranging from 0.0932 to 0.1089 seconds. Merge Sort consistently used an additional 8192 to 12288 bytes of memory. It outperformed Insertion Sort in terms of execution time, with times as low as 0.0070 to 0.0078 seconds. Hybrid Sort had an intermediate memory usage pattern, requiring 4096 to 12288 bytes of additional memory. Its execution times were on par with Merge Sort, ranging from 0.0070 to 0.0078 seconds. These results underline the trade-offs between memory efficiency and execution speed, highlighting Merge Sort and Hybrid Sort as suitable choices for larger datasets, while Insertion Sort's efficiency is more evident with smaller datasets.
 
 
@@ -97,3 +97,7 @@ These tests on arrays with a size 1000 provided insights into their memory usage
 -     Memory usage for Hybrid Sort: 16084992 -> 16166912 bytes
 -     Additional memory needed for hybrid sort:  81920
 -     Time taken for Hybrid Sort: 0.03599858283996582 seconds
+-   **Discussing Performance:**
+With an input size of 10,000, Insertion Sort needed a consistent additional memory usage of 4096 bytes, but it came at the cost of relatively slow execution times, ranging from 4.7374 to 5.5572 seconds. In contrast, Merge Sort consistently required more memory, ranging from 57344 to 65536 bytes of additional memory, but offered significantly faster execution times, ranging from 0.0361 to 0.0498 seconds. Hybrid Sort demonstrated an intermediate memory usage pattern, necessitating 4096 to 81920 bytes of additional memory. Its execution times were on par with Merge Sort, ranging from 0.0360 to 0.0366 seconds. These results highlight the trade-offs between memory efficiency and execution speed. Merge Sort and Hybrid Sort showed to much, much faster than insertion sort on larger sets of data. On the other hand, insertion sort proved faster with smaller amounts of data. This is shown in the hybrid sort with the average times being slightly lower than merge sort since insertion sort wraps up the small amount of data faster.
+
+***Array size of 100,000***
